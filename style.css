@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:"header header header header header" "nav main main main main";
+    background: #F9F9F9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background: #FFFFFF;
+    grid-area: header;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: none;
+}
+
+.menu > span {
+    width: 1.5rem;
+    height: 0.2rem;
+    background: black;
+    border-radius: 1rem;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    display: flex;
+}
+
+#search button {
+    background: #F8F8F8;
+    border: 0.1rem solid #CCCCCC;
+    width: 2.5rem;
+    background-image: url(assets/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#search input[type="search"] {
+    width: 30vw;
+    border: 0.1rem solid #CCCCCC;
+    padding: 0.5rem;
+}
+
+#icons button {
+    width: 2rem;
+    height: 2rem;
+    background-position: center;
+    border: none;
+}
+
+#create {
+    background: none;
+    background-image: url(assets/video.svg);
+    background-repeat: no-repeat;
+}
+
+#notifications {
+    background: none;
+    background-image: url(assets/bell.svg);
+    background-repeat: no-repeat;
+}
+
+#user-icon {
+    background: none;
+}
+
+#user-icon img {
+    width: 34px;
+    border-radius: 50px;
+}
+
+nav {
+    grid-area: nav;
+    padding: 1rem;
+}
+
+nav ul { 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+nav a {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+nav a img {
+    justify-self: right;
+}
+
+nav p {
+    font-size: 0.8rem;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+main p {
+    font-size: 0.7rem;
+    color: #515151;
+}
+
+.video {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+}
+
+.label-video {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 0.5rem;
+}
+
+.label-video > a {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-video > div {
+    display: grid;
+    gap: 0.5rem;
+}

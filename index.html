@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio de Flexbox</title>
+</head>
+<body>
+    <header>
+        <div class="banner-content">
+            <button class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="#">
+                <figure id="logo">
+                    <img src="assets/youtube-logo.svg" alt="Logo do Youtube">
+                </figure>
+            </a>
+        </div>
+        <div>
+            <form id="search" action="#">
+                <input type="search" name="search" id="search">
+                <button type="submit"></button>
+            </form>
+        </div>
+        <div id="icons">
+            <button id="create"></button>
+            <button id="notifications"></button>
+            <button id="user-icon">
+                <img src="assets/Avatar.jpeg" alt="Imagem de perfil do usuário">
+            </button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="assets/home.svg" alt="Ícone da página inicial">
+                    <p>Início</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/compass.svg" alt="Ícone da Explorar">
+                    <p>Explorar</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/youtube.svg" alt="Ícone da página de Inscrições">
+                    <p>Inscrições</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/disc.svg" alt="Ícone do Youtube Music">
+                    <p>Youtube Music</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/thumbs-up.svg" alt="Ícone da página de vídeos que gostei">
+                    <p>Vídeos que gostei</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/clock.svg" alt="Ícone da página de vídeos para assistir mais tarder">
+                    <p>Assistir mais tarde</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/download.svg" alt="Ícone da página de vídeos baixados">
+                    <p>Downloads</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/film.svg" alt="Ícone da página de catálogo de filmes">
+                    <p>Filmes</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/book.svg" alt="Ícone da página de conteúdo educativo">
+                    <p>Aprender</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/award.svg" alt="Ícone da página de conteúdo esportivo">
+                    <p>Esportes</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-geracao-tech.svg" alt="Thumb do vídeo Geração Tech Unimed - BH - Ciência de Dados">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Geração Tech Unimed - BH - Ciência de Dados</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">2,1 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-scrum-talks.svg" alt="Thumb do vídeo Scrum Talks">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Scrum Talks</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">1,6 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-machine-learning-avancado.svg" alt="Thumb do vídeo Machine Learning Avançado - Fast Track">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Machine Learning Avançado - Fast Track</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">1,7 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-global-strik-2.svg" alt="Thumb do vídeo Global Skills #2 - Project Planning">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Global Skills #2 - Project Planning</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">2,1 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-como-aprender-python-do-zero.svg" alt="Thumb do vídeo Como aprender a programar Python do ZERO">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Como aprender a programar Python do ZERO</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">711 visualizações</p>
+                        <p class="data-transmission">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-geracao-tech.svg" alt="Thumb do vídeo Geração Tech Unimed - BH - Ciência de Dados">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Geração Tech Unimed - BH - Ciência de Dados</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">2,1 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-scrum-talks.svg" alt="Thumb do vídeo Scrum Talks">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Scrum Talks</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">1,6 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-machine-learning-avancado.svg" alt="Thumb do vídeo Machine Learning Avançado - Fast Track">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Machine Learning Avançado - Fast Track</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">1,7 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-scrum-talks.svg" alt="Thumb do vídeo Scrum Talks">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Scrum Talks</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">1,6 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-machine-learning-avancado.svg" alt="Thumb do vídeo Machine Learning Avançado - Fast Track">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Machine Learning Avançado - Fast Track</h6>
+                    </a> 
+                    <div>
+                        <p class="data-view">1,7 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-global-strik-2.svg" alt="Thumb do vídeo Global Skills #2 - Project Planning">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Global Skills #2 - Project Planning</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">2,1 mil visualizações</p>
+                        <p class="data-transmission">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div>
+                <a href="#">
+                    <figure class="thumb-video">
+                        <img src="assets/thumb-como-aprender-python-do-zero.svg" alt="Thumb do vídeo Como aprender a programar Python do ZERO">
+                    </figure>
+                </a>
+            </div>
+            <div class="label-video">
+                <a href="#">
+                    <figure class="thumb-channel">
+                        <img src="assets/Channel Avatar.svg" alt="Logo do canal da DIO">
+                    </figure>
+                </a>
+                <div>
+                    <a href="#">
+                        <h6 class="title-video">Como aprender a programar Python do ZERO</h6>
+                    </a>
+                    <div>
+                        <p class="data-view">711 visualizações</p>
+                        <p class="data-transmission">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
